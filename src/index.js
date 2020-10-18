@@ -1,1 +1,3 @@
-alert('working?')
+import { main }  from './main-page';
+
+main();

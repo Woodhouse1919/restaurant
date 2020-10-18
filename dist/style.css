@@ -1,0 +1,59 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    font-family: 'Space Mono', monospace;
+	background-color: #f9ffff;
+	border: 25px solid #ffe500;
+}
+
+#content {
+    min-height: 100vh;
+	text-align: center;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+#navbar {
+    text-align: start;
+	margin: 10px;
+	padding: 0px;
+}
+
+#head {
+    font-size: 40px;
+}
+h1 {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+hr {
+    width: 75%;
+}
+
+span {
+	font-size: 20px;
+	margin: 15px;
+}
+
+article {
+	padding: 50px;
+	margin: 50px;
+}
+
+#taco {
+    margin-top: 40px;
+    justify-self: center;
+    align-self: center;
+    width: 50%;
+}
+
+span:hover {
+    border-bottom: solid;
+}
+

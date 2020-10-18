@@ -1,1 +1,1 @@
-alert("working?");
+(()=>{"use strict";document.getElementById("content").innerHTML='\n    <header id="head">\n\t\t\t\t\t<nav id="navbar">\n\t\t\t\t\t\t<span>Home</span>\n\t\t\t\t\t\t<span>Menu</span>\n\t\t\t\t\t\t<span>Contact</span>\n\t\t\t\t\t</nav>\n\t\t\t\t\t<h1>Last Mirror Tacos</h1>\n\t\t\t\t\t<hr/>\n\t\t\t\t</header>\n\t\t\t\t<img id="taco" src="taco.png" alt="" />\n\t\t\t<footer>123 Fake Street, Springfield</footer>\n    '})();
