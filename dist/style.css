@@ -5,35 +5,45 @@ body {
 }
 
 body {
-    font-family: 'Space Mono', monospace;
+	font-family: 'Space Mono', monospace;
 	background-color: #f9ffff;
 	border: 25px solid #ffe500;
 }
 
-#content {
-    min-height: 100vh;
+.content {
+	min-height: 100vh;
 	text-align: center;
 	display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#contact {
+    justify-content: center;
 }
 
 
-#navbar {
-    text-align: start;
-	margin: 10px;
+
+.navbar {
+    display: inline-block;
+    margin: 10px;
+    margin-right: 600px;
 	padding: 0px;
 }
 
-#head {
-    font-size: 40px;
+#logo {
+   font-size: 35px;
 }
+
+
 h1 {
-    padding-bottom: 0px;
-    margin-bottom: 0px;
+    font-size: 80px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
 }
+
 hr {
-    width: 75%;
+	width: 75%;
 }
 
 span {
@@ -41,19 +51,55 @@ span {
 	margin: 15px;
 }
 
-article {
-	padding: 50px;
-	margin: 50px;
-}
-
 #taco {
-    margin-top: 40px;
-    justify-self: center;
+	margin-top: 40px;
     align-self: center;
+    width: 80%;
+}
+
+
+p {
+    font-size: 20px;
+    align-self: center;
+    width: 75%;
+}
+
+.tab:hover {
+	border-bottom: solid;
+}
+
+footer {
+    text-align: center;
+}
+
+.table {
+    padding-top: 100px;
+    height: 100%;
+    margin: auto auto;
+    display: grid;
+    grid-template-columns: 1000px;
+    grid-template-rows: 200px 200px 200px 200px;
+}
+
+.table div {
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    border: solid;
+}
+
+.table div div {
+    display: flex;
+    font-size: 20px;
+    height: 50%;
     width: 50%;
+    margin: 10px;
+    padding: 10px;
 }
 
-span:hover {
-    border-bottom: solid;
+.table div p {
+    margin-left: 10px;
+    text-decoration: underline;
 }
-
